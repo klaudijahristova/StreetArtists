@@ -1,0 +1,123 @@
+/* ....................................... Landing Page ..................................... */
+.title {
+    width: 150px;
+    font-size: 1.875rem;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .navbar {
+    height: 69px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  .main-LP {
+    height: 830px;
+  }
+  .logo-LP {
+    width: 145.09px;
+    height: 145.14px;
+    margin-top: 51px;
+    margin-bottom: 55.86px;
+  }
+  .join-wrapper {
+    width: 260px;
+    height: 392.5px;
+    margin-left: calc(50% - 130px);
+  }
+  .join-artist {
+    width: 260px;
+    height: 276.5px;
+    left: calc(50% - 130px);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 42%);
+    transition: 300ms;
+  }
+  .join-artist:hover {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 42%);
+    box-shadow: 0px 2px 2px 0px #000040;
+    transform: scale(1.06) translate(0px, -3px);
+  }
+  .join-visitor {
+    width: 260px;
+    height: 276.5px;
+    top: 116px;
+    left: calc(50% - 130px);
+    transition: 300ms;
+    clip-path: polygon(0 0, 100% 58%, 100% 100%, 0 100%);
+  }
+  .join-visitor:hover {
+    clip-path: polygon(0 0, 100% 58%, 100% 100%, 0 100%);
+    transform: scale(1.06) translate(0px, -3px);
+  }
+  .artist-wrapper,
+  .visitor-wrapper {
+    transition: filter 0.7s;
+  }
+  .artist-wrapper:hover {
+    filter: drop-shadow(1px 6px 2px rgba(0, 0, 0, 0.25));
+    animation: backtofront 1.2s linear forwards;
+    position: absolute;
+  }
+  .visitor-wrapper:hover {
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.28));
+    animation: backtofront 1.2s linear forwards;
+    position: absolute;
+  }
+  @keyframes backtofront {
+    from {
+      z-index: 0;
+      opacity: 0.92;
+    }
+    to {
+      z-index: 3;
+      opacity: 1;
+    }
+  }
+  .artist-inner-box {
+    width: 214px;
+    height: 82px;
+    top: 15px;
+    left: calc(50% - 107px);
+  }
+  .artist-text {
+    top: 15px;
+    left: calc(50% - 107px);
+    width: 214px;
+    height: 46px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+  #choose {
+    top: 75px;
+    left: calc(214px + calc(50% - 107px) - 97px);
+    width: 97px;
+    height: 27px;
+    border: 1px solid #a16a5e;
+    font-size: 13px;
+    line-height: 15.23px;
+    font-weight: 300;
+    border-radius: 2px;
+    padding-left: 15px;
+    background: none;
+    border: 1px solid #b48575;
+    outline: none;
+  }
+  select#choose {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../../images/Vector\ 4.png");
+    background-repeat: no-repeat;
+    background-position: 70px;
+  }
+  .visitor-text {
+    top: 164px;
+    left: calc(50% - 105px);
+    width: 210px;
+    height: 45px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+  }

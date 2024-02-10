@@ -1,0 +1,24 @@
+/* ....................................... Capture Image Popup ..................................... */
+.main-CIP {
+    height: 776px;
+  }
+  .capture-image {
+    margin: 51px auto 0;
+    height: 657px;
+    width: 378px;
+    margin-top: 51px;
+    background-color: rgb(71, 29, 29);
+  }
+  @media (max-width: 410px) {
+    .capture-image {
+      width: 328px;
+    }
+  }
+  @media (max-width: 355px) {
+    .capture-image {
+      width: 278px;
+    }
+  }
+  .icon-CIP {
+    margin-top: 33px;
+  }

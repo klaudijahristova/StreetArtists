@@ -1,0 +1,25 @@
+/* ..........................Auction......................................... */
+#yourBit,
+.amountSubmit {
+  background-color: transparent;
+  border: 1px solid #edd5bb;
+  border-radius: 5px;
+  padding: 3px 0 3px 10px;
+  color: #edd5bb;
+}
+#yourBit::placeholder,
+#amountSubmit {
+  color: #edd5bb;
+  font-family: "Roboto", "sans-serif";
+}
+.amountSubmit {
+  padding: 3px 10px;
+}
+.chart1{
+  max-width: 1000px;
+  max-height: 414px;
+}
+.auction-card-placeholder{
+  height: 300px;
+  overflow-y: scroll;
+}

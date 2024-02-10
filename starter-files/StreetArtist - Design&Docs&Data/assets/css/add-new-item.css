@@ -1,0 +1,185 @@
+/* ....................................... Add New Items Page ..................................... */
+.main-ANI {
+    height: 827px;
+  }
+  .title-ANI {
+    padding-top: 26px;
+    margin-left: 18px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+  }
+  @media (max-width: 330px) {
+    .title-ANI {
+      font-size: 26px;
+    }
+  }
+  .checkbox-wrapper {
+    top: 33px;
+    right: 11px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+  .input-title {
+    margin-top: 14px;
+    margin-right: 18px;
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  #inputTitle,
+  #editTitle {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #edd5bb;
+    border-radius: 2px;
+    width: 100%;
+  }
+  .decription-ANI {
+    height: 104px;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-top: 25px;
+  }
+  #input-description,
+  #editDescription {
+    width: 100%;
+    height: 83px;
+  }
+  #input-description,
+  #editDescription,
+  #editType,
+  #input-type,
+  #input-price,
+  #editPrice,
+  #input-url,
+  #editUrl {
+    background-color: transparent;
+    border: 1px solid #edd5bb;
+    border-radius: 2px;
+  }
+  .type-ANI {
+    height: 48px;
+  }
+  .typeAndPrice {
+    height: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 29px;
+    margin-right: 18px;
+    margin-left: 18px;
+    justify-content: space-between;
+  }
+  #input-type,
+  #editType,
+  #input-price,
+  #editPrice {
+    width: 180px;
+    font-weight: 300;
+  }
+  @media (max-width: 396px) {
+    #input-type,
+    #editType,
+    #input-price,
+    #editPrice {
+      width: 160px;
+    }
+  }
+  @media (max-width: 358px) {
+    #input-type,
+    #editType,
+    #input-price,
+    #editPrice {
+      width: 130px;
+    }
+  }
+  .label-ANI {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .url-ANI {
+    height: 48px;
+    margin-top: 19px;
+    margin-right: 18px;
+    margin-left: 18px;
+  }
+  #input-url,
+  #editUrl {
+    width: 100%;
+  }
+  .or {
+    padding-top: 7px;
+  }
+  .snapshot-ANI {
+    margin-top: 7px;
+    margin-right: 18px;
+    margin-left: 18px;
+    height: 309px;
+    border: 2px dashed #edd5bb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+  .snapshot-ANI:hover {
+    color: #edd5bb;
+  }
+  .camera-ANI {
+    margin-top: 121px;
+  }
+  .takeSnapshot {
+    padding-top: 11px;
+  }
+  .btn-ANI {
+    margin-right: 18px;
+    margin-left: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .addNewItemBtn,
+  .canselBtn {
+    border: none;
+    border-radius: 2px;
+    width: 175px;
+    height: 37px;
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  #checkbox-ANI,
+  #checkbox-EI {
+    color: currentColor;
+    width: 18px;
+    height: 17px;
+    border-radius: 2px;
+    border: none;
+    opacity: 0;
+  }
+  .customCheckbox, .customCheckboxEdit{
+    width: 18px;
+    height: 17px;
+    background-color:#edd5bb ;
+    border-radius: 2px;
+    right: 11px;
+    top:34px
+  }
+  .checkMark, .checkMarkEdit{
+    right: 11px;
+    top:34px
+  }
+  .fa-trash-can {
+    top: 10px;
+    right: 10px;
+  }

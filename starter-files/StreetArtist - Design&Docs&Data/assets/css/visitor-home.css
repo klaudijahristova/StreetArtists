@@ -1,0 +1,233 @@
+/* ....................................... Visitor Home Page ..................................... */
+.auction-icon-wrapper {
+    margin-top: 0.94px;
+    margin-right: 20.75px;
+  }
+  #auctionIcon,
+  #auctionIcon1 {
+    position: absolute;
+    top: 18.5px;
+    right: 19.5px;
+  }
+  .banner-VHP {
+    width: 100%;
+    height: 154px;
+    padding: 6px 0;
+  }
+  .img-banner {
+    background-image: url(../../images/Bricks.png);
+    width: 100%;
+    height: 142px;
+    background-size: cover;
+  }
+  .lookingFor {
+    width: 192px;
+    height: 75px;
+    padding-top: 35px;
+    padding-left: 17px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .findOne {
+    text-decoration: none;
+    width: 113px;
+    height: 27px;
+    padding: 6.5px 17.5px;
+    border-radius: 2px;
+    top: 62px;
+    right: 19.5px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  @media (max-width: 340px) {
+    .findOne {
+      width: 90px;
+      font-size: 8px;
+    }
+  }
+  .findOne:hover {
+    color: #e3d0b8;
+  }
+  .slider-wrapper {
+    height: 429px;
+    overflow: hidden;
+  }
+  .slider-animation {
+    height: 352.5px;
+    width: 100%;
+  }
+  .slider-track1,
+  .slider-track2 {
+    width: 100%;
+    height: 153px;
+  }
+  .slider-track1 {
+    animation: slideLeft 50s linear infinite;
+  }
+  .slider-track2 {
+    animation: slideRight 50s linear infinite;
+  }
+  .first {
+    margin-bottom: 23.25px;
+  }
+  .slide {
+    width: 207.62px;
+    height: 153px;
+    margin-right: 30px;
+  }
+  .slide-img {
+    width: 207.62px;
+    height: 153px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.664));
+    cursor: pointer;
+  }
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-30vh * 9));
+    }
+  }
+  @keyframes slideRight {
+    0% {
+      transform: translateX(calc(-30vh * 9));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  #carouselExampleControls {
+    height: 244px;
+  }
+  .half {
+    height: 179px;
+    margin-top: 32.5px;
+  }
+  
+  .left {
+    border-right: 0.5px solid #a16a5e;
+  }
+  .right {
+    border-left: 0.5px solid #a16a5e;
+  }
+  .aboutArtist {
+    width: 106px;
+    height: 111px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 68.5px;
+  }
+  
+  @media (min-width: 768px) {
+    .aboutArtist {
+      margin-left: 150px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .aboutArtist {
+      margin-left: 200px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .aboutArtist {
+      margin-left: 400px;
+    }
+  }
+  @media (max-width: 320px) {
+    .aboutArtist {
+      margin-right: 10px;
+      height: 130px;
+    }
+  }
+  .aboutMasterpiece {
+    width: 106px;
+    height: 174px;
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 26.5px;
+  }
+  @media (max-width: 320px) {
+    .aboutMasterpiece {
+      margin-left: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    .aboutMasterpiece {
+      margin-right: 300px;
+    }
+  }
+  @media (min-width: 768px) {
+    .aboutMasterpiece {
+      margin-left: 100px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .aboutMasterpiece {
+      margin-left: 150px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .aboutMasterpiece {
+      margin-left: 250px;
+    }
+  }
+  .artist1-img,
+  .artist2-img,
+  .artist3-img {
+    width: 46px;
+    height: 46px;
+  
+    left: 98.5px;
+    top: 43.5px;
+  }
+  .artist1-text {
+    padding: 34px 9px;
+  }
+  .artistCarousel {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px solid #a16a5e;
+  }
+  @media (max-width: 320px) {
+    .artistCarousel{
+      position: absolute;
+      top: -7px;
+      right: 12px;
+    }
+  }
+  @media (min-width: 768px) {
+    .artistCarousel {
+      margin-left: 80px;
+    }
+  }
+  @media (min-width: 768px) {
+    .artistCarousel {
+      margin-left: 80px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .artistCarousel {
+      margin-left: 130px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .artistCarousel {
+      margin-left: 330px;
+    }
+  }
+  

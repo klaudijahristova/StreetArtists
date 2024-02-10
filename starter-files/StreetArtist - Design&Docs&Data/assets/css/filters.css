@@ -1,0 +1,162 @@
+/* ....................................... Visitor Filters ..................................... */
+
+#offcanvasRight {
+    margin-top: 69px;
+    z-index: 1;
+  }
+  .offcanvas-backdrop.show {
+    display: none;
+  }
+  .offcanvas-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    margin-left: 17px;
+    margin-top: 22px;
+    width: 108px;
+    display: inline-block;
+  }
+  .btn-close {
+  margin-left: auto;
+    margin-right: 18px;
+    background: none;
+    padding: 0;
+    width: 39px;
+    height: 39px;
+  }
+  .close-offcanvas {
+    width: 39px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: 18px;
+  }
+  .offcanvas-body {
+    padding-bottom: 227px;
+  }
+  .byTitle {
+    margin-top: 25px;
+    margin-left: 17px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+  }
+  #byTitle {
+    background-color: transparent;
+    border: 1px solid #edd5bb;
+    border-radius: 2px;
+    width: 97px;
+    height: 27px;
+    margin-top: 19px;
+    margin-left: 18px;
+  }
+  .borderBottom {
+    height: 32px;
+    margin-left: 21px;
+    margin-right: 18px;
+    border-bottom: 2px solid #fcebd5;
+  }
+  .byArtist,
+  .byPrice,
+  .byType {
+    margin-top: 38px;
+    margin-left: 17px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    width: 67px;
+  }
+  #byArtist,
+  #byType {
+    width: 97px;
+    height: 27px;
+    margin-top: 19px;
+    margin-left: 18px;
+    background-color: transparent;
+    border: 1px solid #edd5bb;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../../images/select-icon.png);
+    background-repeat: no-repeat;
+    background-position: 70px;
+    padding-left: 15px;
+  }
+  #byArtist option {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+  }
+  .min {
+    margin-top: 29px;
+    margin-left: 17px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+  }
+  #minPrice,
+  #maxPrice {
+    width: 97px;
+    height: 27px;
+    margin-top: 26px;
+    margin-left: 9px;
+    background-color: transparent;
+    border: 1px solid #edd5bb;
+  }
+  .max {
+    margin-left: 94px;
+    margin-top: 29px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+  }
+  @media only screen and (max-width: 424px) {
+    .max {
+      margin-left: 40px;
+    }
+  }
+  @media only screen and (max-width: 371px) {
+    .max {
+      margin-left: 0px;
+    }
+    #maxPrice {
+      margin-left: 0px;
+    }
+    #minPrice {
+      margin-left: 0px;
+    }
+  }
+  #maxPrice {
+    margin-right: 18px;
+  }
+  .borderToPriceDiv {
+    margin-top: 25px;
+    margin-left: 21px;
+    margin-right: 18px;
+    border-bottom: 2px solid #fcebd5;
+  }
+  .bg-submitBtn {
+    width: 65px;
+    height: 67px;
+    background-image: url(../../images/Rectangle\ 21.png);
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: 18px;
+    margin-bottom: 20px;
+  }
+  .submitBtn {
+    top: 14px;
+    left: 16px;
+    height: 39px;
+    width: 39px;
+  }
