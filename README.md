@@ -79,7 +79,4 @@ A mobile-specific feature for capturing item images directly from the device.
 
 A live auction page where only visitors can bid on items, with a simulated auction environment, including a countdown timer and bid management.
 
-## Mobile-Only Design
-
-This project is optimized for mobile devices, utilizing HTML, CSS, Bootstrap, and JavaScript to ensure a responsive and user-friendly experience on smartphones and tablets.
 
